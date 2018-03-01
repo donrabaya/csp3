@@ -1,0 +1,460 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif !important;
+}
+.logosize {
+	width: 30px;
+}
+.masterFont {
+	font-family: 'Montserrat', sans-serif !important;
+}
+.letterspace {
+	letter-spacing: 1vw !important;
+	font-weight: bold;
+	margin-top: 55px !important;
+}
+.letterspace2 {
+	letter-spacing: 1vw !important;
+	font-weight: bold;
+	margin-top: 40vh !important;
+}
+.letterspace1 {
+	letter-spacing: 1vw !important;
+}
+.height {
+	min-height: 70vh !important;
+	background-color: #1e272e !important;
+}
+.red {
+	background-color: #ee5253 !important;
+}
+.black {
+	background-color: #222f3e !important;
+}
+.heroBlack {
+	color: black !important;
+}
+.heroWhite {
+	color: white !important;
+}
+.fix {
+	width: 75vh;
+	position: absolute;
+	transform: translate(44vw, 4vh);
+}
+.transparent {
+	background-color: transparent !important;
+}
+.hello {
+	position: fixed !important;
+	z-index: 10 !important;
+	bottom: 20px !important;
+	right: 20px !important;
+}
+ul > li {
+	list-style-type: none;
+}
+.minHeight {
+	min-height: 350px !important;
+	position: relative;
+}
+label {
+	color: #333;
+}
+.maincontainer {
+	max-width: 90vw;
+    margin: auto;
+}
+.border {
+	border: 1px solid white;
+}
+.color {
+	color: white;
+	position: relative;
+	height: 40vh;
+	width: 30vw;
+	background: #ee5253 !important;
+}
+.absolute {
+	position: absolute;
+	transform: translate(24vh, -3vw);
+}
+.absolute2 {
+	position: absolute;
+	transform: translate(17vw, -5vh);
+}
+.padding {
+	padding-left: 7vw !important;
+}
+.box {
+	color: black !important;
+	background-color: #fff !important;
+	border: 1px solid white;
+	position: absolute;
+	transform: translate(7vw, -5vh);
+}
+.box2 {
+	color: black !important;
+	background-color: #fff !important;
+	border: 1px solid white;
+	position: absolute;
+	transform: translate(7vw, -4vh);
+}
+.pos {
+	font-size: 23px;
+	color: black !important;
+	background-color: white;
+	position: absolute;
+	transform: translate(-3vw, 29vh);
+}
+.relative {
+	position: relative; 
+}
+.postposition {
+	color: black !important;
+	background-color: white;
+	position: absolute;
+	transform: translate(4vw, -7vh);
+}
+.newspos {
+	height: 30vh;
+	width: 26vw;
+	position: relative;
+	background-color: #222f3e;
+}
+.widthdiv {
+	width: 48px;
+}
+.marginleft {
+	margin-left: 10px;
+}
+.footspacing {
+	letter-spacing: 0.2em;
+}
+#article-card {
+	min-height: 60vh !important;
+}
+.small {
+	font-size: 20px !important;
+	margin-top: 10vh !important;
+
+}
+
+/* MEDIA QUERY */
+
+/* Mobile */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1023px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  	.height {
+  		height: 100vh;
+  	}
+  	.fix {
+  		width: 38vh !important;
+    	transform: translate(22vw, 45vh);
+  	}
+  	/* First Box*/
+  	.absolute2 {
+  		font-size: 20px !important;
+  		transform: translate(1vw, -6vh);
+  	}
+  	.newspos {
+  		height: 30vh !important;
+		width: 63vw !important;
+  	}
+  	.letterspace {
+  		font-size: 35px;
+  		padding-left: 5px;
+  	}
+  	.box2 {
+  		transform: translate(18vw, -4vh);
+  		font-size: 15px;
+  	}
+
+  	/* Second Box */
+  	.absolute {
+  		width: 35vh !important;
+  		font-size: 10px !important;
+  		font-size: 18px !important;
+  		transform: translate(2vw, -6vh);
+  		text-align: center;
+  	}
+  	.color {
+	  	box-sizing: content-box;
+	    max-width: 1200px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    width: 63vw !important;
+	    height: 25vh !important;
+  	}
+  	.box {
+  		font-size: 15px;
+  		transform: translate(15vw, -5vh);
+  	}
+  	.head {
+  		text-align: center;
+  	}
+  	/* Header */
+  	.pos {
+  		font-size: 10px !important;
+  		width: 30vw !important;
+  		transform: translate(3vw, 14vh);
+  		padding: 5px !important;
+  	}
+
+  	/* Articles */
+  	.minHeigh {
+
+  	}
+  	#left {
+  		margin-left: 0px !important;
+  	}
+}
+
+/* Iphone4 */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 325px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  	.letterspace2 {
+  		font-size: 20px;
+  	}
+  	.masterpar {
+  		font-size: 10px; 
+  	}
+  	.navsize {
+  		font-size: 10px !important;
+  		color: white !important;
+  	}
+
+  	/* First Box */
+  	.absolute2 {
+  		font-size: 15px !important;
+  		text-align: center;
+  		transform: translate(-2vw, -6vh);
+  	}
+  	.box2 {
+  		transform: translate(16vw, -4vh);
+  	}
+  	.letterspace {
+  		font-size: 10px !important;
+  	}
+  	/* Second Box */
+  	.box {
+	    font-size: 15px;
+	    transform: translate(11vw, -7vh);
+	}
+	.head {
+		font-size: 10px;
+		text-align: left;
+	}	
+	.absolute {
+		font-size: 15px !important;
+		width: 42vh !important;
+		transform: translate(1vw, -10vh);
+	}
+	/* Header */
+	.pos {
+	    width: 36vw !important;
+	    transform: translate(-5vw, 25vh);
+	}
+
+}
+/* Iphone X */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+    	.absolute2 {
+		    font-size: 20px !important;
+		    transform: translate(-1vw, -2vh);
+		    text-align: center;
+		}
+		.pos {
+		    font-size: 14px !important;
+		    width: 39vw !important;
+		    transform: translate(-5vw, 19vh);
+		    padding: 5px !important;
+		}
+		.absolute {
+		    width: 27vh !important;
+		    font-size: 10px !important;
+		    font-size: 18px !important;
+		    transform: translate(2vw, -2vh);
+		    text-align: center;
+		}
+		.fix {
+			transform: translate(22vw, 38vh);
+			width: 28vh !important;
+		}
+}
+
+	/* Tablet */
+	@media only screen 
+	  and (min-device-width: 767px) 
+	  and (max-device-width: 1030px) 
+	  and (-webkit-min-device-pixel-ratio: 1) {
+	  .this {
+		  	font-size: 20px !important;
+		}
+	  .masterpar {
+		  	font-size: 20px !important;
+		}
+	  .fix {
+		    width: 52vh !important;
+    		transform: translate(16vw, 31vh) !important;
+		}
+		.box2 {
+		    transform: translate(23vw, -2vh);
+		    font-size: 22px;
+		}
+		.newspos {
+			box-sizing: content-box !important;
+		    max-width: 1200px !important;
+		    margin-left: 95px !important;
+		    margin-right: auto !important;
+		    padding-left: 15px !important;
+		    padding-right: 15px !important;
+		    width: 63vw !important;
+		    height: 25vh !important;
+		}
+		.absolute2 {
+		    font-size: 34px !important;
+		    transform: translate(5vw, -3vh);
+		}
+		.letterspace {
+			text-align: center;
+		}
+		.box {
+		    font-size: 24px;
+		    transform: translate(19vw, -5vh);
+		}
+		.absolute {
+			width: 55vw !important;
+			transform: translate(5vw, -1vh);
+			font-size: 28px !important;
+		}
+		.pos {
+		    font-size: 21px !important;
+		    width: 30vw !important;
+		    transform: translate(0vw, 39vh);
+		    padding: 5px !important;
+		}
+	}
+
+	/* Ipad Pro */
+	@media only screen 
+	and (min-device-width: 1024px) 
+	and (max-device-width: 1030px) 
+	and (-webkit-min-device-pixel-ratio: 1) {
+		.height {
+			height: 100vh;
+		}
+		.letterspace2 {
+			font-size: 50px;
+		}
+		.this {
+			font-size: 30px;
+		}
+		.masterpar {
+			font-size: 25px;
+		}
+		.fix {
+		    width: 53vh !important;
+			transform: translate(15vw, 31vh) !important;
+		}
+		/* First Box */
+		.box2 {
+		    transform: translate(23vw, -2vh);
+		    font-size: 30px;
+		}
+		.newspos {
+			box-sizing: content-box !important;
+		    max-width: 1200px !important;
+		    margin-left: 140px !important;
+		    margin-right: auto !important;
+		    padding-left: 15px !important;
+		    padding-right: 15px !important;
+		    width: 63vw !important;
+		    height: 25vh !important;
+		}
+		.absolute2 {
+		    font-size: 30px !important;
+		    transform: translate(0vw, 2vh);
+		    text-align: center;
+		}
+		.letterspace {
+			margin-top: 86px !important; 
+		}
+		/* Second Box */
+		.color {
+			box-sizing: content-box !important;
+		    max-width: 1200px !important;
+		    margin-left: 90px !important;
+		    margin-right: auto !important;
+		    padding-left: 15px !important;
+		    padding-right: 15px !important;
+		    width: 63vw !important;
+		    height: 25vh !important;
+		}
+		.box {
+		    font-size: 27px;
+		    transform: translate(22vw, -3vh);
+		}
+		.head {
+			text-align: center;
+			margin-top: 50px !important;
+			font-size: 35px !important;
+		}
+		.absolute {
+			font-size: 41px !important;
+			text-align: center;
+		}
+	}
+
+/* CSS Animations */
+
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
