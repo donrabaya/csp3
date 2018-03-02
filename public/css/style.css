@@ -73,20 +73,25 @@ label {
 .color {
 	color: white;
 	position: relative;
-	height: 40vh;
+	height: 30vh;
 	width: 30vw;
 	background: #ee5253 !important;
 }
 .absolute {
-	position: absolute;
-	transform: translate(24vh, -3vw);
+    position: absolute;
+    transform: translate(24vh, -3vw);
+    font-size: 32px;
+    width: 81%;
 }
 .absolute2 {
-	position: absolute;
-	transform: translate(17vw, -5vh);
+    position: absolute;
+    transform: translate(15vw, -4vh);
+    font-size: 32px;
+    width: 72%;
 }
 .padding {
-	padding-left: 7vw !important;
+	padding-left: 10vw !important;
+	padding-top: 2vh !important;
 }
 .box {
 	color: black !important;
@@ -119,8 +124,8 @@ label {
 	transform: translate(4vw, -7vh);
 }
 .newspos {
-	height: 30vh;
-	width: 26vw;
+	height: 28vh;
+	width: 24vw;
 	position: relative;
 	background-color: #222f3e;
 }

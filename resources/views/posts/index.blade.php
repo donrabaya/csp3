@@ -28,7 +28,7 @@
         <br>
         <div class="uk-width-1-2@l uk-width-1-1@m uk-width-1-1@s">
             <div class="uk-container uk-flex-right newspos"  uk-scrollspy="cls: uk-animation-slide-bottom;">
-                <h3 class="heroWhite box2 uk-padding-small">READ UP</h3>
+                <h3 class="heroWhite box2 uk-padding-small">Read Up</h3>
                 <h3 class="heroWhite masterFont letterspace small">THE NEWS</h3>
                 <h1 class="absolute2 heroWhite masterFont">"Manchester City Stuns Arsenal FC to Win Title"</h1>
             </div>
@@ -117,10 +117,10 @@
                             <img src="{{asset('images/logo9.png')}}">
                         </div>
                         <div class="uk-width-1-5">
-                            <img src="{{asset('images/logo3.png')}}">
+                            <img src="{{asset('images/logo11.png')}}">
                         </div>
                         <div class="uk-width-1-5">
-                            <img src="{{asset('images/logo5.png')}}">
+                            <img src="{{asset('images/logo12.png')}}">
                         </div>
                     </div>
         </div>
