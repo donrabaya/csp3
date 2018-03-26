@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif !important;
 }
+.black {
+	color: white !important;
+	background-color: black !important;
+}
 .logosize {
 	width: 30px;
 }
