@@ -39,7 +39,6 @@
         			</div>
 
                     @include('layouts.errors')
-
 			</fieldset>
 		</form>
         </div>
